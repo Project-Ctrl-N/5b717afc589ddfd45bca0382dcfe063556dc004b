@@ -6,18 +6,18 @@ $highlightC: #10a8abff;
 $textC: #f9f8f7ff;
 
 /* SCSS HSL */
-$backgroundC: hsla(228, 33%, 18%, 1);
-$overlayedC: hsla(229, 28%, 31%, 1);
-$overlayedC-2: hsla(227, 21%, 40%, 1);
-$highlightC: hsla(181, 83%, 37%, 1);
-$textC: hsla(30, 14%, 97%, 1);
+$backgroundCHSL: hsla(228, 33%, 18%, 1);
+$overlayedCHSL: hsla(229, 28%, 31%, 1);
+$overlayedC-2HSL: hsla(227, 21%, 40%, 1);
+$highlightCHSL: hsla(181, 83%, 37%, 1);
+$textCHSL: hsla(30, 14%, 97%, 1);
 
 /* SCSS RGB */
-$backgroundC: rgba(31, 37, 61, 1);
-$overlayedC: rgba(57, 65, 101, 1);
-$overlayedC-2: rgba(80, 89, 123, 1);
-$highlightC: rgba(16, 168, 171, 1);
-$textC: rgba(249, 248, 247, 1);
+$backgroundCRGB: rgba(31, 37, 61, 1);
+$overlayedCRGB: rgba(57, 65, 101, 1);
+$overlayedC-2RGB: rgba(80, 89, 123, 1);
+$highlightCRGB: rgba(16, 168, 171, 1);
+$textCRGB: rgba(249, 248, 247, 1);
 
 /* SCSS Gradient */
 $gradient-top: linear-gradient(0deg, #1f253dff, #394165ff, #50597bff, #10a8abff, #f9f8f7ff);
@@ -32,4 +32,20 @@ $gradient-radial: radial-gradient(#1f253dff, #394165ff, #50597bff, #10a8abff, #f
 
 .backgroundC {
     background-color: $backgroundC;
+}
+
+.overlayedC {
+    background-color: $overlayedC;
+}
+
+.overlayed-2C {
+    background-color: $overlayed-2C;
+}
+
+.highliteC {
+    background-color: $highlightC;    
+}
+
+.textC {
+    color: $textC;
 }
