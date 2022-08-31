@@ -1,0 +1,35 @@
+/* SCSS HEX */
+$backgroundC: #1f253dff;
+$overlayedC: #394165ff;
+$overlayedC-2: #50597bff;
+$highlightC: #10a8abff;
+$textC: #f9f8f7ff;
+
+.SliderSContainer {
+    width: 100%;
+    margin: 10px;
+}
+
+.SliderS {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background-color: $overlayedC-2;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.SliderS:hover {
+    background-color: $overlayedC;
+}
+
+.SliderS::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 25px;
+    background: $textC;
+    cursor: pointer;
+}
